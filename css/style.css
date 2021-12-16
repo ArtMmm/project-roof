@@ -1028,6 +1028,9 @@ body {
 }
 
 @media (max-width: 676px) {
+  .price__box-item .btn a {
+    font-size: 14px;
+  }
   .offer__img {
     display: none;
   }
