@@ -360,13 +360,13 @@ body {
   line-height: 140%;
   color: #363636;
   transform: translate(-180%, 0px);
-  transition: all 0.4s ease 0.4s;
+  transition: 0.4s;
   opacity: 0;
 }
 
 .advantage h2._active {
   transform: translate(0px, 0px);
-  transition: all 0.4s ease 0.4s;
+  transition: 0.4s;
   opacity: 1;
 }
 
@@ -389,19 +389,19 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  transition: all 0.4s ease 0.4s;
+  transition: 0.4s;
   transform: scale(0);
   opacity: 0;
 }
 
 .advantage__row-item._active {
   opacity: 1;
-  transition: all 0.4s ease 0.4s;
+  transition: 0.4s;
   transform: scale(1);
 }
 
 .advantage__row-item:hover {
-  transition: all 0.4s ease 0.4s;
+  transition: 0.4s;
   padding: 20px;
   background: #C61A27;
   color: #fff;
@@ -409,7 +409,7 @@ body {
 }
 
 .advantage__row-item:hover .advantage__row-item-icon path {
-  transition: all 0.4s ease 0.4s;
+  transition: 0.4s;
   fill: #fff;
 }
 
@@ -481,7 +481,7 @@ body {
 }
 
 .service__box-item:hover {
-  transition: all 0.4s ease 0.4s;
+  transition: all 0.4s;
   border-radius: 20px;
   box-shadow: 0px 4px 14px rgba(54, 54, 54, 0.25);
 }
@@ -812,9 +812,12 @@ body {
   width: 100%;
   min-height: 835px;
   border-radius: 20px;
-  box-shadow: 0px 4px 14px rgba(54, 54, 54, 0.25);
   margin: 0px 20px 30px 0px;
   padding: 30px;
+}
+
+.price__box-item:hover {
+  box-shadow: 0px 4px 14px rgba(54, 54, 54, 0.25);
 }
 
 .price__box-item-img {
@@ -887,7 +890,7 @@ body {
 }
 
 .price__box-item .btn:hover {
-  transition: all 0.4s;
+  transition: 0.4s;
   box-shadow: 0px 2px 10px rgba(255, 0, 17, 0.6);
   border-radius: 20px;
 }
