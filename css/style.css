@@ -907,6 +907,7 @@ body {
   font-weight: normal;
   font-size: 20px;
   line-height: 170%;
+  color: #fff;
 }
 
 .footer__a {
@@ -915,10 +916,12 @@ body {
 
 .footer__text {
   text-align: end;
+  color: #fff;
 }
 
 .footer__title {
   font-family: Raleway;
+  color: #fff;
   font-style: normal;
   font-weight: 300;
   font-size: 28px;
@@ -1021,9 +1024,6 @@ body {
   }
   .offer__box-btn {
     margin: 20px 30px;
-  }
-  .offer__img {
-    display: none;
   }
 }
 
