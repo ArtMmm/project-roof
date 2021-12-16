@@ -1008,6 +1008,7 @@ body {
     margin: auto;
   }
   .offer__box-title {
+    font-size: 40px;
     margin: 20px 30px;
     color: #363636;
   }
