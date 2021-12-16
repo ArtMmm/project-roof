@@ -1003,18 +1003,20 @@ body {
     min-height: 500px;
   }
   .offer__box {
-    background: #1f1f1f;
+    background: #fff;
     top: 40px;
     margin: auto;
   }
   .offer__box-title {
     margin: 20px 30px;
+    color: #363636;
   }
   .offer__box-title::before {
     display: none;
   }
   .offer__box-text {
     margin: 0px 30px;
+    color: rgba(255, 255, 255, 0.6);
   }
   .offer__box-btn {
     margin: 20px 30px;
