@@ -1028,6 +1028,9 @@ body {
 }
 
 @media (max-width: 676px) {
+  .offer__img {
+    display: none;
+  }
   .title {
     margin-left: 0;
   }
