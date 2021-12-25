@@ -1087,7 +1087,7 @@ body {
   margin: 20px auto 0px auto;
   border: none;
   text-transform: uppercase;
-  width: 310px;
+  max-width: 310px;
   height: 70px;
   padding: 20px 50px;
   color: #fff;
@@ -1488,8 +1488,11 @@ body {
   .footer__link {
     text-align: left;
   }
-  .footer__link .footer {
+  .footer {
     margin-top: 100px;
+  }
+  .door__tabs-triggers__item span {
+    font-size: 12px;
   }
 }
 
