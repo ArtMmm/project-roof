@@ -1400,21 +1400,18 @@ body {
     min-height: 500px;
   }
   .offer__box {
-    background: #fff;
     top: 40px;
     margin: auto;
   }
   .offer__box-title {
     font-size: 40px;
     margin: 20px 30px;
-    color: #363636;
   }
   .offer__box-title::before {
     display: none;
   }
   .offer__box-text {
     margin: 0px 30px;
-    color: rgba(54, 54, 54, 0.8);
   }
   .offer__box-btn {
     margin: 20px 30px;
