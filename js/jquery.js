@@ -10,4 +10,16 @@ $(document).ready(function () {
   });
 
   $('.tabs-triggers__item:first').click();
+
+  $('.door__tabs-triggers__item').click(function (e) {
+    e.preventDefault();
+
+    $('.door__tabs-triggers__item').removeClass('door__tabs-triggers__item--active');
+    $('.door__tabs-content__item').removeClass('door__tabs-content__item--active');
+
+    $(this).addClass('door__tabs-triggers__item--active');
+    $($(this).attr('href')).addClass('door__tabs-content__item--active');
+  });
+
+  $('.door__tabs-triggers__item:first').click();
 });
