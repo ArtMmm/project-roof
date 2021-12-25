@@ -735,11 +735,10 @@ body {
 .office__box-text a {
   margin: 0px 20px 0px 0px;
   display: inline-block;
-  height: 60px;
 }
 
 .office__box-text-descr {
-  margin: 30px 0px;
+  margin: 30px 0px 0px 0px;
 }
 
 .office__box-text-descr a {
@@ -1432,7 +1431,7 @@ body {
 }
 
 @media (max-width: 676px) {
-  .advantage, .about, .delivery, .door, .metal, .office, .price, .service {
+  .advantage, .about, .delivery, .door, .metal, .office, .price, .service, .footer {
     margin: 0;
     padding: 60px 10px;
   }
@@ -1494,6 +1493,9 @@ body {
   }
   .delivery__box-text:nth-child(2) {
     margin-left: 0;
+  }
+  .metal__box-item {
+    margin: 20px 0px;
   }
 }
 
