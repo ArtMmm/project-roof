@@ -294,7 +294,7 @@ body {
   font-weight: normal;
   font-size: 22px;
   line-height: 170%;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.7);
   margin-top: 30px;
   transform: translate(0px, 120%);
   opacity: 0;
@@ -347,7 +347,7 @@ body {
 }
 
 .advantage {
-  min-height: 500px;
+  min-height: 400px;
   background: #2c75c2;
   padding: 60px 15px;
 }
@@ -376,7 +376,7 @@ body {
 }
 
 .advantage__row {
-  margin-top: 80px;
+  margin-top: 20px;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -825,6 +825,7 @@ body {
 .tabs-content__item--active {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .metal {
@@ -1251,7 +1252,7 @@ body {
   margin: 20px auto 0px auto;
   border: none;
   text-transform: uppercase;
-  width: 310px;
+  width: 280px;
   height: 70px;
   padding: 20px 50px;
   color: #fff;
@@ -1317,9 +1318,15 @@ body {
 }
 
 @media (max-width: 1440px) {
+  .header {
+    justify-content: space-between;
+  }
   .header__info {
-    position: absolute;
-    right: 30px;
+    width: 1600px;
+    margin-left: 30px;
+  }
+  .header__logo {
+    margin: 0px 0px 0px 80px;
   }
   .header__menu {
     width: 100%;
@@ -1386,6 +1393,12 @@ body {
   }
 }
 
+@media (max-width: 1024px) {
+  .header__info {
+    display: none;
+  }
+}
+
 @media (max-width: 991px) {
   .delivery__box-text:nth-child(2) {
     margin: 0px 0px 0px 25px;
@@ -1411,16 +1424,16 @@ body {
   }
   .offer__box-title {
     font-size: 40px;
-    margin: 20px 30px;
+    margin: 30px 30px;
   }
   .offer__box-title::before {
     display: none;
   }
   .offer__box-text {
-    margin: 0px 30px;
+    margin: 30px 30px;
   }
   .offer__box-btn {
-    margin: 20px 30px;
+    margin: 30px 30px;
   }
 }
 
@@ -1500,6 +1513,20 @@ body {
 }
 
 @media (max-width: 676px) {
+  .metal__box-item-row {
+    margin-left: 0;
+    width: 100%;
+  }
+  .door__box-item {
+    padding: 20px;
+  }
+  .door__box-item-text-row p {
+    margin: 20px 0px;
+  }
+  .door__box-item .btn {
+    margin: 20px 0px 0px 0px;
+    width: 100%;
+  }
   .title {
     font-size: 40px;
   }
@@ -1526,7 +1553,6 @@ body {
   }
   .footer__link {
     text-align: left;
-    margin-top: 20px;
   }
   .footer__link .footer {
     margin-top: 100px;
@@ -1534,11 +1560,14 @@ body {
 }
 
 @media (max-width: 400px) {
+  .metal__box-item .btn {
+    width: 280px;
+  }
   .title {
     font-size: 36px;
   }
-  .footer {
-    margin-top: 80px;
+  .footer__link {
+    margin-top: 20px;
   }
   .footer__text {
     text-align: start;
