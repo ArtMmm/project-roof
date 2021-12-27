@@ -924,8 +924,8 @@ body {
 }
 
 .metal__box-item-text {
-  position: absolute;
-  top: 50px;
+  position: relative;
+  top: 0px;
   padding: 20px 0px;
   min-height: 195px;
   display: flex;
@@ -1524,12 +1524,20 @@ body {
   }
 }
 
+@media (max-width: 500px) {
+  .metal__box-item .btn {
+    width: 280px;
+    padding: 10px 40px;
+    margin: 0px auto;
+  }
+}
+
 @media (max-width: 400px) {
   .metal__box-item-row-title {
     font-size: 16px;
   }
-  .metal__box-item .btn {
-    width: 280px;
+  .metal__box-item .btn a {
+    font-size: 14px;
   }
   .title {
     font-size: 36px;
