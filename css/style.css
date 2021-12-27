@@ -880,6 +880,7 @@ body {
 .metal__box-item-img img {
   border-radius: 20px;
   max-width: 330px;
+  width: 100%;
   height: 100%;
   margin: auto;
 }
