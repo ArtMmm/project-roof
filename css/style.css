@@ -1595,7 +1595,7 @@ body {
     padding: 10px 40px;
     margin: 0px auto;
   }
-  .matal__official {
+  .matal__official, .door__official-site {
     text-align: center;
   }
 }
