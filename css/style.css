@@ -890,7 +890,7 @@ body {
   margin-left: 20px;
   display: flex;
   max-width: 380px;
-  min-height: 480px;
+  min-height: 370px;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
