@@ -156,6 +156,10 @@ body {
   flex-wrap: wrap;
 }
 
+.header .diler {
+  margin: 20px;
+}
+
 .header .container {
   display: flex;
   align-items: center;
@@ -1600,7 +1604,18 @@ body {
   }
 }
 
+.metal__official-btn {
+  margin: 20px auto;
+  display: block;
+}
+
 @media (max-width: 400px) {
+  .metal__official-site, .door__official-site {
+    font-size: 14px;
+  }
+  .metal__official-sale {
+    font-size: 20px;
+  }
   .metal__box-item-row-title {
     font-size: 16px;
   }
