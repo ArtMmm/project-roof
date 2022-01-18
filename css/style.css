@@ -135,7 +135,7 @@ body {
 
 .home-img {
   margin: 30px 0px;
-  max-width: 100%;
+  width: 100%;
 }
 
 .container {
@@ -261,6 +261,28 @@ body {
   color: #fff;
   background: #2c75c2;
   transition: 0.4s;
+}
+
+.material .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.material p {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.material-img {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.material-img img {
+  margin: 20px auto;
+  max-width: 100%;
 }
 
 .offer {
@@ -874,8 +896,8 @@ body {
 }
 
 .metal__official-sale {
-  margin-top: 10px;
-  font-size: 30px;
+  margin: 10px auto 10px 25px;
+  font-size: 20px;
   color: #2c75c2;
   font-weight: 700;
 }
@@ -924,7 +946,7 @@ body {
 
 .metal__box-item-img img {
   border-radius: 20px;
-  max-width: 330px;
+  max-width: 310px;
   width: 100%;
   height: 100%;
   margin: auto;
@@ -1358,7 +1380,7 @@ body {
     max-width: 700px;
   }
   .metal__box-item-img img {
-    max-width: 280px;
+    max-width: 260px;
   }
 }
 
