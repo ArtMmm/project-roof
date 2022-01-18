@@ -880,8 +880,7 @@ body {
 }
 
 .metal__official-sale {
-  margin: 10px auto;
-  text-align: center;
+  margin: 10px auto 10px 25px;
   font-size: 30px;
   color: #2c75c2;
   font-weight: 700;
