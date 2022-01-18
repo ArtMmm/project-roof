@@ -323,7 +323,7 @@ body {
 .offer__box-title._active {
   transform: translate(0px, 0px);
   opacity: 1;
-  transition: all 0.4s ease 0.4s;
+  transition: 0.4s;
 }
 
 .offer__box-text {
@@ -341,7 +341,7 @@ body {
 .offer__box-text._active {
   transform: translate(0px, 0px);
   opacity: 1;
-  transition: all 0.4s ease 0.4s;
+  transition: 0.4s;
 }
 
 .offer__box-btn {
